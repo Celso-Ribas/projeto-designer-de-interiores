@@ -54,6 +54,34 @@ header .slogan {
   
 }
 
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+  padding: 8px 0;
+  font-size: 15px;
+  align-items: center;
+}
+
+.contact-container a {
+  text-decoration: underline;
+  color:var(--font1);
+  transition: color 0.3s ease;
+}
+
+.contact-container a:hover {
+  color: var(--font);
+   
+}
+
+.contact-container .icon {
+  
+  width: 20px;    
+  height: 20px;
+  margin-right: 6px;  
+}
+
 
 
 nav ul {
