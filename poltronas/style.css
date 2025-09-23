@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+:root {
+    --header1: #4e342e;
+    --header2: #8d6e63 ;
+    --header3: #d7ccc8;
+    --font1: #1b0e0c;
+    --font: #d4af37;
+    --font-family1:"Great Vibes", serif;
+    --font-family2:"Playfair Display", serif;
+    
+    
+}
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--header2);
+    
+}
+
+header {
+  background: linear-gradient(to bottom, #4e342e, #8d6e63, #d7ccc8);
+  color:var(--font);
+  padding: 15px;
+  display: flex;
+  flex-direction:column; 
+  align-items: center;
+  text-align: center;
+  
+}
+
+header .logo {
+  
+  font-family: var(--font-family1);
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+header .slogan {
+  font-family:var(--font-family2);
+  font-style: italic;
+  font-weight:lighter;
+  font-size: 0.9rem;
+  margin: 5px 0 15px 0;
+  color:var(--font1);
+  
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+  padding: 8px 0;
+  font-size: 15px;
+  align-items: center;
+}
+
+.contact-container a {
+  text-decoration: underline;
+  color:var(--font1);
+  transition: color 0.3s ease;
+}
+
+.contact-container a:hover {
+  color: var(--font);
+   
+}
+
+.contact-container .icon {
+  
+  width: 20px;    
+  height: 20px;
+  margin-right: 6px;  
+}
+
+
+
+nav ul {
+  font-family: var(--font-family2);
+  list-style: none;
+  line-height: 1.8em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content:space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+  nav ul li {
+  margin-right: 20px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--font1);
+  font-style: italic;
+  font-weight:lighter;
+  transition-duration: 0.6s;
+  
+}
+nav a:hover {
+    color:var(--font);
+    border-bottom: 0.1rem solid #d4af37;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.title {
+    background-color: var(--header2);
+    color: var(--header3);
+    font-family: var(--font-family2);
+    font-size: 1.6rem;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-decoration:overline;
+    
+}
+
+.title h2 {
+  padding-top: 20px;
+}
+.title p {
+  padding-top: 20px;
+}
+
+.content {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  
+}
+
+.image-block {
+  text-align: center;
+}
+
+.image-block img {
+  
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+
+}
+.image-block h2 {
+  background-color: var(--header2);
+   color: var(--header3);
+    font-family: var(--font-family2);
+    font-size: 1.6rem;
+    padding-top: 15px; 
+    text-align: center;
+    text-decoration:overline;
+
+}
