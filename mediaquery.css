@@ -100,13 +100,13 @@ body {
   }
 
   .content {
-    flex-direction: row; /* lado a lado */
+    flex-direction: row;
     align-items: flex-start;
   }
 
   .image-block, 
   .text-block {
-    flex: 1; /* divide espaço igualmente */
+    flex: 1; 
   }
 
   .image-block {

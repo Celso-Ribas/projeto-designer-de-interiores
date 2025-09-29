@@ -23,23 +23,31 @@
     box-sizing: border-box;
 
   }
+  
 
 
   .content {
-    flex-direction: row;   
-    justify-content: center;
-    align-items: stretch;  
+
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
     gap: 80px;
+    margin-top: 25px;
+    padding: 8px 0;
+    
+     
+    
   }
 
-  .image-block {
+   .image-block {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
   .text-block {
-    font-size: 18px;
+    
+    font-size: 17px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,6 +56,8 @@
     
     
   }
+
+ 
 
 
 }
