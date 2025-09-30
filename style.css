@@ -26,6 +26,11 @@ body {
     
 }
 
+strong {
+  color: blue;
+}
+
+
 header {
   background: linear-gradient(to bottom, #4e342e, #8d6e63, #d7ccc8);
   color:var(--font);
@@ -184,6 +189,7 @@ nav a:hover {
   box-sizing: border-box;
   
 }
+
 
 
 

@@ -128,12 +128,7 @@ nav a:hover {
     
 }
 
-.title h2 {
-  padding-top: 20px;
-}
-.title p {
-  padding-top: 20px;
-}
+
 
 .content {
 
@@ -141,6 +136,13 @@ nav a:hover {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   
+}
+
+.content p {
+  color: var(--header3);
+  font-family: var(--font-family2);
+  font-size: 1.6rem;
+
 }
 
 .image-block {
