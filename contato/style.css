@@ -52,6 +52,7 @@ header .slogan {
   margin: 5px 0 15px 0;
   color:var(--font1);
   
+  
 }
 
 .contact-container {
@@ -193,22 +194,24 @@ nav a:hover {
     text-decoration:overline;
 }
 
-.review .box-container {
+.box-container {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;  
 } 
 
 .review .box-container .box {
-    border:#1b0e0c;
+   
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 .review .box-container .box p {
-    font-size: 1.5rem;
-    color: white;
+    font-size: 1.1rem;
+    color:var(--header3);
     padding: 2rem 0;
-    line-height: 1.8;
+    line-height: 1.8rem;
     font-weight: lighter;
 }
+.box-container .box h3
