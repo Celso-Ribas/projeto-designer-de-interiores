@@ -165,3 +165,8 @@ nav a:hover {
     text-decoration:overline;
 
 }
+
+footer {
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
