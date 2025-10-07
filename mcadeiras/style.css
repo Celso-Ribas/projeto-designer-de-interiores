@@ -120,15 +120,13 @@ nav a:hover {
     color: var(--header3);
     font-family: var(--font-family2);
     font-size: 1.6rem;
-    padding-top: 25px;
+    padding-top: 45px;
     padding-bottom: 15px;
     margin-bottom: 4rem;
     text-align: center;
-    text-decoration: overline;
-    
+    text-decoration:overline;
     
 }
-
 .title p {
   color: #d4af37;
 }

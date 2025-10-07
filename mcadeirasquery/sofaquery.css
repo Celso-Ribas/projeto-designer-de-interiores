@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+
+  }
+
+  header .logo {
+  
+  font-family: var(--font-family1);
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+ 
+  .content {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  box-sizing: border-box;
+  
+}
+
+.image-block img {
+  width: 400px;   
+    height: 400px;  
+    box-sizing: border-box;
+ 
+ } 
+}
