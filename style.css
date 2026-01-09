@@ -230,10 +230,9 @@ nav a:hover {
 }
 
 .image-block img {
-  
-  
   width: 100%;
   height: auto;
+  border: 2px solid #d4af37;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -277,6 +276,7 @@ footer {
     margin-top: -50px;
     margin-bottom: 25px;
     border-radius: 10px;
+    border: 2px solid #d4af37;
     box-shadow: 0 20px 30px black;
     position: relative;
 

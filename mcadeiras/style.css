@@ -128,7 +128,7 @@ nav a:hover {
     
 }
 .title p {
-  color: #d4af37;
+  color: var(--header3);
 }
 
 
@@ -156,6 +156,7 @@ nav a:hover {
   
   width: 100%;
   height: 250px;
+  border: 2px solid #d4af37;
   border-radius: 8px;
   object-fit: cover;
 

@@ -130,7 +130,7 @@ nav a:hover {
 }
 
 .title p {
-  color: #d4af37;
+  color:var(--header3);
 }
 
 
