@@ -269,7 +269,7 @@ footer {
 .container-slide {
     display: flex;
     justify-content: space-between;
-    width: 65vw;
+    width: 90vw;
     height: 50vh;
     background-color: black;
     margin: 15vh auto;
@@ -284,7 +284,7 @@ footer {
 }
 
 .container-itens {
-    width: 65vw;
+    width: 90vw;
     height: 50vh;
     position: absolute;
     display: flex;
@@ -293,7 +293,7 @@ footer {
 }
 
 .item {
-    width: 65vw;
+    width: 90vw;
     height: 50vh;
     transition: all 1s;
 
@@ -303,7 +303,7 @@ footer {
 }
 
 .item img {
-    width: 65vw;
+    width: 90vw;
     height: 50vh;
     border-radius: 10px;
     
