@@ -265,3 +265,124 @@ footer {
   padding-top: 30px;
 }
 
+/* Carrosel de imagens CSS*/
+
+.container-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height: 60vh;
+    background-color: black;
+    margin: 15vh auto;
+    margin-top: -50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px black;
+    position: relative;
+
+
+}
+
+.container-itens {
+    width: 90vw;
+    height: 60vh;
+    position: absolute;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item {
+    width: 90vw;
+    height: 60vh;
+    transition: all 1s;
+
+}
+.item:first-child {
+    margin-left: -100%;
+}
+
+.item img {
+    width: 90vw;
+    height: 60vh;
+    border-radius: 10px;
+    
+    
+}
+
+.action-button {
+    font: bold 30px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: #00000000;
+    user-select: none;
+    z-index: 1;
+    
+}
+
+.action-button:hover {
+    background-color:#00000055;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.action-button img {
+    opacity: 0;                 
+    transition: 0.6s ease;
+}
+
+.action-button:hover img {
+    opacity: 1;                 
+    filter: brightness(0) invert(1);  
+}
+
+
+
+/* Telas Maiores */
+
+
+@media (min-width: 768px) {
+    .container-slide {
+         width: 66vw;
+        max-width: 1200px;
+        height: auto;              
+        aspect-ratio: 16 / 9;  
+        overflow: hidden;    
+    }
+
+    .container-itens,
+    .item,
+    .item img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+
+    .item img {
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-slide {
+         width: 66vw;
+        max-width: 1200px;
+        height: auto;              
+        aspect-ratio: 16 / 9;  
+    }
+
+    .container-itens,
+    .item,
+    .item img {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .item img {
+        object-fit: cover;
+    }
+}
