@@ -270,11 +270,12 @@ footer {
 .container-slide {
     display: flex;
     justify-content: space-between;
-    width: 90vw;
-    height: 60vh;
+    width: 65vw;
+    height: 50vh;
     background-color: black;
     margin: 15vh auto;
     margin-top: -50px;
+    margin-bottom: 25px;
     border-radius: 10px;
     box-shadow: 0 20px 30px black;
     position: relative;
@@ -283,8 +284,8 @@ footer {
 }
 
 .container-itens {
-    width: 90vw;
-    height: 60vh;
+    width: 65vw;
+    height: 50vh;
     position: absolute;
     display: flex;
     border-radius: 10px;
@@ -292,8 +293,8 @@ footer {
 }
 
 .item {
-    width: 90vw;
-    height: 60vh;
+    width: 65vw;
+    height: 50vh;
     transition: all 1s;
 
 }
@@ -302,8 +303,8 @@ footer {
 }
 
 .item img {
-    width: 90vw;
-    height: 60vh;
+    width: 65vw;
+    height: 50vh;
     border-radius: 10px;
     
     
@@ -327,10 +328,10 @@ footer {
     cursor: pointer;
     
 }
-.action-button img {
+/*.action-button img {
     opacity: 0;                 
     transition: 0.6s ease;
-}
+}*/
 
 .action-button:hover img {
     opacity: 1;                 
