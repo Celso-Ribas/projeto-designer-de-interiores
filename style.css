@@ -345,7 +345,7 @@ footer {
 
 @media (min-width: 768px) {
     .container-slide {
-         width: 66vw;
+         width: 90vw;
         max-width: 1200px;
         height: auto;              
         aspect-ratio: 16 / 9;  
@@ -369,7 +369,7 @@ footer {
 
 @media (min-width: 1200px) {
     .container-slide {
-         width: 66vw;
+         width: 90vw;
         max-width: 1200px;
         height: auto;              
         aspect-ratio: 16 / 9;  
