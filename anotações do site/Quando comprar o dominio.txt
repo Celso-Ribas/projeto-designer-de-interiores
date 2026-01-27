@@ -1,0 +1,9 @@
+💡 Quando você comprar o domínio, a gente só:
+
+adiciona o <link rel="canonical">
+
+adiciona Open Graph com a URL real
+
+configura Search Console
+
+Sem retrabalho.
