@@ -62,12 +62,9 @@ header {
   font-size: 1.5rem;
   margin-bottom: 6px;
   font-weight: bold;
-  line-height: 1.1;
-  
-  
-  
-  
+  line-height: 1.1; 
 }
+
 header .slogan {
   font-family:var(--font-family2);
   font-style: italic;
