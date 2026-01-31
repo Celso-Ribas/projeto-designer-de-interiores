@@ -18,11 +18,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--header2);
+    overflow-x: hidden;
     
 }
 
@@ -37,7 +39,15 @@ header {
   
 }
 
-header .logo {
+.seo-title {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.logo {
   
   font-family: var(--font-family1);
   font-size: 1.8rem;
@@ -132,7 +142,10 @@ nav a:hover {
   padding-top: 20px;
 }
 .title p {
-  padding-top: 20px;
+  color:var(--header3);
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  
 }
 
 .content {
@@ -156,7 +169,7 @@ nav a:hover {
   object-fit: cover;
 
 }
-.image-block h2 {
+.image-block p {
   background-color: var(--header2);
    color: var(--header3);
     font-family: var(--font-family2);
