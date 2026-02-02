@@ -163,7 +163,7 @@ nav a:hover {
 .image-block img {
   
   width: 100%;
-  height: 480px;
+  height: 500px;
   border: 2px solid #d4af37;
   border-radius: 8px;
   object-fit: cover;
@@ -173,6 +173,8 @@ nav a:hover {
 
 .text-block {
   background: var(--header3);
+  width: 100%;
+  height: 500px;
   padding: 15px;
   text-align: center;
   align-self: flex-start;
@@ -220,6 +222,33 @@ nav a:hover {
   padding-top: 10px;
   font-size: 1.2rem;
   margin-bottom: 15px;
+}
+
+.review .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.review .box-container .box p {
+    font-size: 1.5rem;
+    color: white;
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.review .box-container .box .user {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.review .box-container .box h3 {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem 0;
+
 }
 
 .btn {
