@@ -414,3 +414,64 @@ footer {
         object-fit: cover;
     }
 }
+/* Animação*/
+
+.txt-animado {
+    font-size: clamp(22px, 6vw, 36px);
+  font-weight: 300;
+  white-space: nowrap;
+}
+.txt-animado span {
+    position: relative;
+  display: inline-block;
+}
+
+.txt-animado span::before {
+    content: "";
+    color: #d4af37;
+    animation: palavras 20s infinite ;
+}
+
+.txt-animado span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid #d4af37;
+    right: -15px;
+    animation: cursor .9s infinite, digita 20s steps(15) infinite;
+    width: calc(100% + 19px);
+    background-color: #212121;
+}
+@keyframes digita {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+        width: 0;
+        
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85% {
+        width: calc(100% + 19px) ;
+    }
+}
+
+@keyframes cursor {
+    0% {
+        border-left: 2px solid #212121;
+    }
+}
+
+@keyframes palavras {
+    0%,20% {
+        content: "Nos Conhecer !";
+    }
+    21%,40% {
+        content: "Nos Visitar !";
+    }
+    41%,60% {
+        content: "Tomar Um Café !";
+    }
+    61%,80% {
+        content: "Trazer o Seu Projeto !";
+    }
+    81%,100% {
+        content: "Inovar !";
+    }
+}
