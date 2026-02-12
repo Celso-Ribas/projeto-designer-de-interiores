@@ -31,4 +31,11 @@
     box-sizing: border-box;
  
  } 
+
+ .slide-container .slide {
+    align-items: flex-end;
+    padding: 50px 12%;
+  }
+
+  
 }

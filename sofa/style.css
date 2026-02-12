@@ -129,7 +129,7 @@ nav a:hover {
     font-size: 1.2rem;
 }
 
-.title {
+/*.title {
     background-color: var(--header2);
     color: var(--header3);
     font-family: var(--font-family2);
@@ -151,6 +151,113 @@ nav a:hover {
 }
 
 
+  ------Sliders----------*/
+
+  section.containerproje {
+    width: 100%;
+    padding-bottom: 40px;
+    position: relative;
+    min-height: 100vh;
+    
+
+}
+
+.slide-container .slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 24px;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.containerproje .slide-container {
+    display: none;
+}
+.containerproje .slide-container.active {
+    display: block; }
+
+.containerproje .slide-container:nth-child(1) .slide {
+    background-image: url(../img/IMG-AMB02.jpg);
+ /*background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;*/
+}
+
+.containerproje .slide-container:nth-child(2) .slide {
+    background-image: url(../img/IMG-AMB03.jpg);
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;*/
+}
+
+.containerproje .slide-container:nth-child(3) .slide {
+    background-image: url(../img/IMG-AMB06.jpg);
+/* background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;*/
+}
+
+.contentproje {
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 16px;
+    border-radius: 8px;
+
+}
+
+.contentproje h3 {
+    font-size: 1.6rem;
+    color:#d4af37;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.contentproje p {
+  font-size: 1rem;
+  color: #d7ccc8;
+  line-height: 1.5;
+  
+}
+
+ #prev, #next {
+  
+   position: absolute; 
+   top: 50%;
+   transform: translateY(-50%);
+   color: white;
+   background-color: rgba(0, 0, 0, 0.45) ;
+   height: 45px;
+   width: 45px;
+   line-height: 45px;
+   font-size: 22px;
+   text-align: center;
+   cursor: pointer;
+   font-weight: bolder;
+   border-radius: 50px;
+}
+#prev:hover, #next:hover {
+    background: #d4af37;
+}
+#prev {
+left: 25px;
+}
+#next {
+right: 25px;
+}
 
 .content {
 
@@ -195,3 +302,8 @@ footer {
   padding-bottom: 60px;
   padding-top: 30px;
 }
+
+
+
+
+
