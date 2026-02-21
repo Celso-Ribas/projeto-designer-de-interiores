@@ -99,24 +99,103 @@ body {
     font-size: 1.5rem;
   }
 
-  .content {
-    flex-direction: row;
-    align-items: flex-start;
+  .info-section .content {
+    display: flex;
+    align-items: stretch;
+    gap: 2rem;
   }
 
-  .image-block, 
-  .text-block {
-    flex: 1; 
-  }
-
-  .image-block {
-    max-width: 50%; /* garante metade da tela */
-  }
-
-  .text-block {
+  .info-section .image-block,
+  .info-section .text-block {
+    flex: 1;
     max-width: 50%;
   }
-  
+
+  .info-section .image-block {
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .info-section .image-block img {
+    width: 100%;
+    height: 100%;          /* 🔑 cresce na vertical */
+    object-fit: cover;    /* 🔑 sem distorcer */
+    border-radius: inherit;
+  }
+
+
+  /* ===== SECTION PROPÓSITO ===== 
+  .info-section .text-block,
+  .info-section .image-block:has(+ .text-block) {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  /* ===== SECTION PRONTA ENTREGA ===== */
+  .info-section .content:not(:has(.text-block)) {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 colunas */
+    gap: 1.2rem;
+    align-items: start;
+  }
+
+  .info-section .content:not(:has(.text-block)) .image-block {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .info-section .content:not(:has(.text-block)) img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .info-section .content:not(:has(.text-block)) p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+    .item {
+    flex: 0 0 33.333%;
+  }
+
+
+
+.container-itens,
+.item,
+.item img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+
+
+}
+
+.content-ofertas {
+  padding-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+
+.image-block2 img {
+
+   width: 400px;   
+    height: 400px;  
+    box-sizing: border-box;
+ 
+}
+
+
+
+
+
+
+
 }
 
 
@@ -193,5 +272,23 @@ body {
 
   .text-block {
     max-width: 50%;
+  }
+
+   .container-slide {
+    width: 90vw;
+    max-width: 1200px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .container-itens,
+  .item,
+  .item img {
+    width: 100%;
+    height: 100%;
+
+  }
+  .item img {
+    object-fit: cover;
   }
 }
