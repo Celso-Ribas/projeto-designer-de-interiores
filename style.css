@@ -203,12 +203,6 @@ nav a:hover {
   text-decoration: none;
   aspect-ratio: 4 / 3;
 }
-/*.ofertas img {
-  width: 100%;
-  height: auto;
-  display: block;
-  
-}*/
 
 .title {
   background-color: var(--header2);
@@ -324,7 +318,6 @@ nav a:hover {
   border-radius: 8px;
   border: 2px solid #d4af37;
   object-fit: cover;
-  /*object-position: center top;*/
   
 }
 .image-block2 p {

@@ -86,9 +86,7 @@ body {
 
   .hero {
     height: 600px;
-    /* aumenta a altura */
     background-position: center top;
-    /* controla a parte visível */
   }
 
   .hero-text h1 {
@@ -118,23 +116,14 @@ body {
 
   .info-section .image-block img {
     width: 100%;
-    height: 100%;          /* 🔑 cresce na vertical */
-    object-fit: cover;    /* 🔑 sem distorcer */
+    height: 100%;          
+    object-fit: cover;    
     border-radius: inherit;
   }
 
-
-  /* ===== SECTION PROPÓSITO ===== 
-  .info-section .text-block,
-  .info-section .image-block:has(+ .text-block) {
-    flex: 1;
-    max-width: 50%;
-  }
-
-  /* ===== SECTION PRONTA ENTREGA ===== */
   .info-section .content:not(:has(.text-block)) {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 6 colunas */
+    grid-template-columns: repeat(6, 1fr); 
     gap: 1.2rem;
     align-items: start;
   }
@@ -210,25 +199,19 @@ body {
   display: flex;
   justify-content: space-between; 
   align-items: center;       
-  padding: 40px 40px;          /* controla altura do header */
+  padding: 40px 40px;         
 }
-
-
 
   header .logo {
     font-size: 2.3rem;
     top: -20px;
     position: relative;
-
-
   }
 
   header .slogan {
     font-size: 1.1rem;
     position: relative;
     top: -30px;
-
-
   }
 
    nav ul {
